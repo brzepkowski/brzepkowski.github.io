@@ -4,6 +4,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+ .page__content {
+  text-align: justify;
+}
+
 .btn-default,
 .btn-primary,
 .btn-success,
