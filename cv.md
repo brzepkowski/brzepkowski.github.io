@@ -6,7 +6,7 @@ title: Scientific CV
 ### Education
 
 ------------ | -------------
-Engineering studies in *Computer Science* \n bla bla bla | 2013-2017
+Engineering studies in *Computer Science*, Faculty of Fundamental Problems of Technology | 2013-2017
 Content in the first column | Content in the second column
 
 
