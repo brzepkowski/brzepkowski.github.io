@@ -13,12 +13,10 @@ PhD candidate in **Physics**, Department of Theoretical Physics, Faculty of Fund
 
 
 ### Conferences, workshops, summer schools
-<div style="text-align: justify">
-- *EMNEQ Focus Workshop, Emergence and non-equilibrium physics: Algorithmic perspectives on complex matter*, Canterbury, England, 30 April – 1 May 2019.
-- *48th International School & Conference on the Physics of Semiconductors
-"Jaszowiec 2019"*, Szczyrk, Poland, 8-14 June 2019 (accepted poster abstract: [**"DMRG studies of the ferromagnetic order in the ribbon and cylindrical geometry of CrI3"**](assets/jaszowiec_2019_abstract.pdf).
-- *International Summer School on Deep Learning 2019*, Gdańsk, Poland, 1-5 July 2019.
-- *45th Congress of Polish Physicists*, Kraków, Poland, 13-18 September 2019.
-</div>
+
+- <div style="text-align: justify">*EMNEQ Focus Workshop, Emergence and non-equilibrium physics: Algorithmic perspectives on complex matter*, Canterbury, England, 30 April – 1 May 2019. </div>
+- <div style="text-align: justify">*48th International School & Conference on the Physics of Semiconductors "Jaszowiec 2019"*, Szczyrk, Poland, 8-14 June 2019 (accepted poster abstract: [**"DMRG studies of the ferromagnetic order in the ribbon and cylindrical geometry of CrI3"**](assets/jaszowiec_2019_abstract.pdf). </div>
+- <div style="text-align: justify"> *International Summer School on Deep Learning 2019*, Gdańsk, Poland, 1-5 July 2019. </div>
+- <div style="text-align: justify"> *45th Congress of Polish Physicists*, Kraków, Poland, 13-18 September 2019. </div>
 
 ### [Current CV in PDF format](assets/scientific_CV_ENG.pdf)
