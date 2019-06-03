@@ -7,20 +7,11 @@ title: Scientific CV
 
 ------------ | -------------
 Engineering studies in **Computer Science**, Faculty of Fundamental Problems of Technology, Wrocław University of Science and Technology, Thesis subject: [**”Controlling a computer model with the usage of a neural network” (PL)**](assets/eng_thesis.pdf) | 2013-2017
-Content in the first column | Content in the second column
+Master’s studies in **Computer Science**, Faculty of Fundamental Problems of Technology,
+Wrocław University of Science and Technology, Specialization: **Algorithmics**,
+Thesis subject: [**”Implementation of algorithms on a quantum
+computer” (ENG)**](assets/msc_thesis.pdf) | 2017-2018
 
-
-
-
-First Header | Years
------------- | -------------
-Engineering studies in *Computer Science*, Faculty of Fundamental Problems of Technology,
-Wrocław University of Science and Technology,
-Thesis subject: ”Controlling a computer model with the usage of a neural network” (PL) | 2013-2017
-Master’s studies in *Computer Science*, Faculty of Fundamental Problems of Technology,
-Wrocław University of Science and Technology, Specialization: Algorithmics,
-Thesis subject: ”Implementation of algorithms on a quantum
-computer” (ENG)
 
 ### Conferences, workshops, summer schools
 
