@@ -6,7 +6,7 @@ title: Scientific CV
 ### Education
 
 ------------ | -------------
-Engineering studies in **Computer Science**, Faculty of Fundamental Problems of Technology, Wrocław University of Science and Technology, | 2013-2017
+Engineering studies in **Computer Science**, Faculty of Fundamental Problems of Technology, Wrocław University of Science and Technology, Thesis subject: [**”Controlling a computer model with the usage of a neural network” (PL)**](assets/eng_thesis.pdf) | 2013-2017
 Content in the first column | Content in the second column
 
 
