@@ -8,8 +8,8 @@ My name is Bartosz Rzepkowski. I am a PhD candidate at the Wrocław University o
 
 
 **My scientific interests:**
-- Solid state physics.
 - Quantum computation and quantum information.
+- Solid state physics.
 - Quantum measurement.
 
 ### Important links
