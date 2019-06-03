@@ -19,3 +19,5 @@ PhD candidate in **Physics**, Department of Theoretical Physics, Faculty of Fund
 "Jaszowiec 2019"*, Szczyrk, Poland, 8-14 June 2019 (accepted poster abstract: [**"DMRG studies of the ferromagnetic order in the ribbon and cylindrical geometry of CrI3"**](assets/jaszowiec_2019_abstract.pdf).
 - *International Summer School on Deep Learning 2019*, Gdańsk, Poland, 1-5 July 2019.
 - *45th Congress of Polish Physicists*, Kraków, Poland, 13-18 September 2019.
+
+### [Current CV in PDF format](assets/scientific_CV_ENG.pdf)
