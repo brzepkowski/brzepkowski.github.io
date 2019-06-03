@@ -6,7 +6,7 @@ title: Scientific CV
 ### Education
 
 ------------ | -------------
-Content from cell 1 | Content from cell 2
+Engineering studies in *Computer Science* \n bla bla bla | 2013-2017
 Content in the first column | Content in the second column
 
 
