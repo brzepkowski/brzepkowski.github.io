@@ -1,6 +1,6 @@
 ---
 layout: page
-title: contact
+title: Contact
 ---
 
 E-mail: bartosz.rzepkowski (at) pwr.edu.pl
