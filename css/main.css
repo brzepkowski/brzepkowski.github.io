@@ -103,6 +103,11 @@ img {
   margin-top: -25px;
 }
 
+/*  Justify */
+.page__content {
+  text-align: justify;
+}
+
 /* --- Navbar --- */
 
 .navbar-custom {
