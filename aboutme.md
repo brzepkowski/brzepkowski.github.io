@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About me
-<!-- subtitle: Why you'd want to go on a date with me -->
 ---
 
 My name is Bartosz Rzepkowski. I am a PhD candidate at the Wrocław University of Science and Technology.
