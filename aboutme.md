@@ -5,7 +5,9 @@ title: About me
 ---
 
 My name is Bartosz Rzepkowski. I am a PhD candidate at the Wrocław University of Science and Technology.
-Below I present my scientific interests:
+
+
+My scientific interests:
 - Solid state physics.
 - Quantum computation and quantum information.
 - Quantum measurement.

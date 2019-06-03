@@ -25,6 +25,7 @@ description: My homepage with basic information about me and how to contact me.
 navbar-links:
   About Me: "aboutme"
   CV: "cv"
+  Contact: "contact"
   # Resources:
   #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #   - Learn markdown: "http://www.markdowntutorial.com/"
