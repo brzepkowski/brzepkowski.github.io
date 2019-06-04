@@ -153,53 +153,51 @@ Celem tej listy jest wstępne opanowanie pisania aplikacji dla systemu Android z
 ### Lista 2 (Lab) Termin wysłania na SVN do 24.03.2019
 
 Celem tej listy jest opanowanie bardziej zaawansowanych układów graficznych (niż te z poprzedniej listy) oraz wykorzystanie większej liczby widgetów oraz widoków w interfejsie graficznym użytkownika.
+1 (3pt lub 4pt) Napisz grę w kółko i krzyżyk, gdzie dwóch graczy na zmianę naciska przyciski w siatce 5x5 oznaczone odpowiednio przez "X" lub "O". Jeśli, któryś z graczy ułoży swoje litery pionowo, poziomo lub po przekątnej to wygrywa. Wykorzystaj odpowiedni Layout do rozłożenia przycisków oraz zrób tak aby przyciski wypełniały odpowiednio ekran i czcionka była odpowiednio duża (możesz to przetestować na emulatorze dla różnych rozdzielczości ekranów). Prostsza wersja, gry jest taka, że gracze są ludźmi i grają na zmianę (3pt). W bardziej zaawansowanej wersji zrób, aby można było grać z komputerem np. wymyślając jakąś strategie która będzie naśladowała zachowanie drugiego gracza (4pt).
+1. (3pt) Napisz aplikację "Wisielec", która wyświetla po kolei obrazek wisielca oraz słowo które gracz próbuje zgadnąć. Słowo wybierane jest losowo z dostępnego słownika. Oczywiście cały czas wyświetlane jest słowo z prawidłowo zgadniętymi literami np. dla słowa komputer jeśli gracz zgadł prawidłowo litery o, m i e, słowo będzie wyglądało mniej więcej tak ?om???e?. Do utworzenia obrazków wykorzystaj np. program GIMP nazwij je odpowiednio wisielec0.png, wisielec1.png i tak dalej. Do wyświetlania obrazków wykorzystaj ImageView. Do przechowywania słownika wykorzystaj plik strings.xml.
 
-    (3pt lub 4pt) Napisz grę w kółko i krzyżyk, gdzie dwóch graczy na zmianę naciska przyciski w siatce 5x5 oznaczone odpowiednio przez "X" lub "O". Jeśli, któryś z graczy ułoży swoje litery pionowo, poziomo lub po przekątnej to wygrywa. Wykorzystaj odpowiedni Layout do rozłożenia przycisków oraz zrób tak aby przyciski wypełniały odpowiednio ekran i czcionka była odpowiednio duża (możesz to przetestować na emulatorze dla różnych rozdzielczości ekranów). Prostsza wersja, gry jest taka, że gracze są ludźmi i grają na zmianę (3pt). W bardziej zaawansowanej wersji zrób, aby można było grać z komputerem np. wymyślając jakąś strategie która będzie naśladowała zachowanie drugiego gracza (4pt).
-    (3pt) Napisz aplikację "Wisielec", która wyświetla po kolei obrazek wisielca oraz słowo które gracz próbuje zgadnąć. Słowo wybierane jest losowo z dostępnego słownika. Oczywiście cały czas wyświetlane jest słowo z prawidłowo zgadniętymi literami np. dla słowa komputer jeśli gracz zgadł prawidłowo litery o, m i e, słowo będzie wyglądało mniej więcej tak ?om???e?. Do utworzenia obrazków wykorzystaj np. program GIMP nazwij je odpowiednio wisielec0.png, wisielec1.png i tak dalej. Do wyświetlania obrazków wykorzystaj ImageView. Do przechowywania słownika wykorzystaj plik strings.xml.
-
+```
     <string-array name="words">
         <item>komputer</item>
         <item>zgadywanka</item>
         ...
     </string-array>
-
+```
     Jak pobierać zasoby zobacz link. Słownik możesz wypełnić dowolnymi słowami np. ściągniętymi z internetu przez prosty skrypt.
 
-Lista 3 (Lab) Termin wysłania na SVN do 7.04.2019
+### Lista 3 (Lab) Termin wysłania na SVN do 7.04.2019
+1. (5-10pt) Napisz prostą aplikacje "To-Do", czyli listę zadań do zrobienia. Aplikacja zawiera ListView z potencjalną listą zadań. Na początku lista jest pusta, ale na dole aktywności znajduje się np. EditText oraz Button (Dodaj), gdzie użytkownik może wprowadzić opis nowego zadania. Dalej mamy możliwość wyboru ikonki zadania (obrazek) oraz czas wykonania zadania. Zaprojektuj odpowiedni layout pojedynczej pozycji ListView, który zawiera co najmniej obrazek, treść zadania oraz czas wykonania. Aplikacja powinna też mieć możliwość usuwania zadań z listy, przez dołączenie słuchacza do listy, który usuwa wybraną pozycję. Najlepiej wykorzystać do tego long click (metoda setOnItemLongClickListener). Zrób też tak, aby aplikacja pamiętała listę zadań po rotacji ekranu, czyli po zmianie z portrait na landscape i odwrotnie.
 
-    (5-10pt) Napisz prostą aplikacje "To-Do", czyli listę zadań do zrobienia. Aplikacja zawiera ListView z potencjalną listą zadań. Na początku lista jest pusta, ale na dole aktywności znajduje się np. EditText oraz Button (Dodaj), gdzie użytkownik może wprowadzić opis nowego zadania. Dalej mamy możliwość wyboru ikonki zadania (obrazek) oraz czas wykonania zadania. Zaprojektuj odpowiedni layout pojedynczej pozycji ListView, który zawiera co najmniej obrazek, treść zadania oraz czas wykonania. Aplikacja powinna też mieć możliwość usuwania zadań z listy, przez dołączenie słuchacza do listy, który usuwa wybraną pozycję. Najlepiej wykorzystać do tego long click (metoda setOnItemLongClickListener). Zrób też tak, aby aplikacja pamiętała listę zadań po rotacji ekranu, czyli po zmianie z portrait na landscape i odwrotnie.
+**Uwaga:** W tym zadaniu aplikacja powinna być w pełni funkcjonalna. Uwzględniana będzie też wygoda i użyteczność aplikacji. Możliwe są do wprowadzenia dodatkowe funkcje, za które można otrzymać dodatkowe punkty np.
 
-Uwaga: W tym zadaniu aplikacja powinna być w pełni funkcjonalna. Uwzględniana będzie też wygoda i użyteczność aplikacji. Możliwe są do wprowadzenia dodatkowe funkcje, za które można otrzymać dodatkowe punkty np.
+- sortowanie zadań po czasie
+- ustalenie priorytetów zadań
+- sortowanie po ikonce (typ zadania)
+- ...
 
-    sortowanie zadań po czasie
-    ustalenie priorytetów zadań
-    sortowanie po ikonce (typ zadania)
-    ...
-
-Lista 4 (Lab) Termin wysłania na SVN do 23.04.2019
+### Lista 4 (Lab) Termin wysłania na SVN do 23.04.2019
 
 Celem tej listy jest napisanie aplikacji, która ma wiele aktywności, prawidłowo obsługuje stany aplikacji onPause, onStop, itp. przechowuje dane i poprawnie wykorzystuje intencje (intent).
+1. (5pt) Napisz aplikacje (galeria) przechowującą zdjęcia np. ludzi, krajobrazów, zwierząt, ... i każde zdjęcie dodatkowo zawiera krótki opis. Po uruchomieniu aplikacji, na początku pokazuje ona dostępne zdjęcia. Użytkownik może wybrać dowolną pozycję, aby zobaczyć większe zdjęcie i opis. Na ekranie dodatkowo, mamy możliwość ocenienia zdjęcia przez np. "gwiazdki" (zobacz RatingBar ). Proszę pamiętać, że na tym etapie poznania Androida nie ma to być w pełni funkcjonalna aplikacja np. nie potrzeba tworzyć kont dla użytkowników lub nie potrzeba przechowywać nowych zdjęć. Aplikacja powinna natomiast obsługiwać:
+    - co najmniej dwie aktywności
+    - przekazywać informacje z jednej aktywności do drugiej wykorzystując intencje
+    - druga aktywność powinna wracać informacje do pierwszej o liczbie gwiazdek, po czym w pierwszej aktywności obrazki zostają odpowiednio posortowane po liczbie gwiazdek
+    - poprawnie obsługiwać cykl życia aktywności tzn. onCreate, onStart, onResume, onPause, onStop, onDestroy, ... (te które są potrzebne)
+    - wykorzystywać fragmenty przy zmianie orientacji ekranu
+    - zapamiętywać swój stan po zmianie orientacji ekranu
+1. \*(5pt) Uzupełnij poprzednie zadanie o możliwość robienia zdjęć (obsługa Camera ) i dodawania do kolekcji.
 
-    (5pt) Napisz aplikacje (galeria) przechowującą zdjęcia np. ludzi, krajobrazów, zwierząt, ... i każde zdjęcie dodatkowo zawiera krótki opis. Po uruchomieniu aplikacji, na początku pokazuje ona dostępne zdjęcia. Użytkownik może wybrać dowolną pozycję, aby zobaczyć większe zdjęcie i opis. Na ekranie dodatkowo, mamy możliwość ocenienia zdjęcia przez np. "gwiazdki" (zobacz RatingBar ). Proszę pamiętać, że na tym etapie poznania Androida nie ma to być w pełni funkcjonalna aplikacja np. nie potrzeba tworzyć kont dla użytkowników lub nie potrzeba przechowywać nowych zdjęć. Aplikacja powinna natomiast obsługiwać:
-        co najmniej dwie aktywności
-        przekazywać informacje z jednej aktywności do drugiej wykorzystując intencje
-        druga aktywność powinna wracać informacje do pierwszej o liczbie gwiazdek, po czym w pierwszej aktywności obrazki zostają odpowiednio posortowane po liczbie gwiazdek
-        poprawnie obsługiwać cykl życia aktywności tzn. onCreate, onStart, onResume, onPause, onStop, onDestroy, ... (te które są potrzebne)
-        wykorzystywać fragmenty przy zmianie orientacji ekranu
-        zapamiętywać swój stan po zmianie orientacji ekranu
-    \*(5pt) Uzupełnij poprzednie zadanie o możliwość robienia zdjęć (obsługa Camera ) i dodawania do kolekcji.
-
-Lista 5 (Lab) Termin wysłania na SVN do 5.05.2019
+### Lista 5 (Lab) Termin wysłania na SVN do 5.05.2019
 
 Celem tej listy jest napisanie aplikacji, która umożliwia prostą animacje oraz na stałe przechowuje dane.
 
-    (5pt) Napisz prostą dwuwymiarową grę w tenisa Pong lub Arkanoid. Wykorzystaj własne View które będzie odpowiedzialne za odświeżanie gry (rysowanie kolejnych klatek animacji gry w onDraw). Do pobierania zdarzeń wykorzystaj metodę np. onTouchEvent. Wszystkie informacje o stanie gry mają być przechowywane w SharedPreferences.
+1. (5pt) Napisz prostą dwuwymiarową grę w tenisa Pong lub Arkanoid. Wykorzystaj własne View które będzie odpowiedzialne za odświeżanie gry (rysowanie kolejnych klatek animacji gry w onDraw). Do pobierania zdarzeń wykorzystaj metodę np. onTouchEvent. Wszystkie informacje o stanie gry mają być przechowywane w SharedPreferences.
 
-Lista 6 (Lab) Termin wysłania na SVN do 19.05.2019
+### Lista 6 (Lab) Termin wysłania na SVN do 19.05.2019
 
-    (5pt) Napisz aplikacje wykorzystującą REST API do prostych obliczeń matematycznych Newton API. W implementacji wykorzystaj bibliotekę Retrofit. Napisz prosty interfejs do wprowadzania podstawowych funkcji np. w EditText wprowadzamy wyrażenie i na dole mamy Buttony które odpowiadają wszystkim dostępnym operacją simplify, factor, derive, ... po czym dostajemy wynik obliczeń.
+1. (5pt) Napisz aplikacje wykorzystującą REST API do prostych obliczeń matematycznych Newton API. W implementacji wykorzystaj bibliotekę Retrofit. Napisz prosty interfejs do wprowadzania podstawowych funkcji np. w EditText wprowadzamy wyrażenie i na dole mamy Buttony które odpowiadają wszystkim dostępnym operacją simplify, factor, derive, ... po czym dostajemy wynik obliczeń.
 
-
+```
     # Lokalna instalacja Newton API (jeśli chcemy pracować i/lub testować lokalnie)
 
     $ sudo pacman -S nodejs npm
@@ -209,13 +207,14 @@ Lista 6 (Lab) Termin wysłania na SVN do 19.05.2019
     $ node app.js
 
     # Mamy serwer na http://localhost:3000
+```
 
-Lista 7 (Lab) Termin wysłania na SVN do 2.06.2019
+### Lista 7 (Lab) Termin wysłania na SVN do 2.06.2019
 
-    (3pt) Dopisz funkcjonalność przechowywania danych do aplikacji z Listy 3 (To-Do). Do przechowywania danych wykorzystaj SQLite oraz Room. Aplikacja powinna mieć podstawowe możliwości wyszukiwania, dodawania oraz usuwania zadań.
-    (5pt) Dopisz funkcjonalność "gry przez sieć" do aplikacji z Listy 2 - kółko i krzyżyk. Wykorzystaj funkcjonalność bazy danych czasu rzeczywistego Firebase. Na początku mamy możliwość rejestracji lub jeśli mamy już konto to logowania (również z wykorzystaniem Firebase). Po czym możemy wybrać osobę do gry (która jest też zalogowana do systemu). Następnie prowadzimy grę na zmianę przez sieć. Wystarczy tutaj klasyczna rozgrywka na planszy 3x3.
+1. (3pt) Dopisz funkcjonalność przechowywania danych do aplikacji z Listy 3 (To-Do). Do przechowywania danych wykorzystaj SQLite oraz Room. Aplikacja powinna mieć podstawowe możliwości wyszukiwania, dodawania oraz usuwania zadań.
+1. (5pt) Dopisz funkcjonalność "gry przez sieć" do aplikacji z Listy 2 - kółko i krzyżyk. Wykorzystaj funkcjonalność bazy danych czasu rzeczywistego Firebase. Na początku mamy możliwość rejestracji lub jeśli mamy już konto to logowania (również z wykorzystaniem Firebase). Po czym możemy wybrać osobę do gry (która jest też zalogowana do systemu). Następnie prowadzimy grę na zmianę przez sieć. Wystarczy tutaj klasyczna rozgrywka na planszy 3x3.
 
-Lista dodatkowa (Lab) Termin wysłania na SVN oraz oddania do 18.06.2019
+### Lista dodatkowa (Lab) Termin wysłania na SVN oraz oddania do 18.06.2019
 
-    (5pt) Dopisz funkcjonalność powiadamiania o nadchodzącym zadaniu w aplikacji z Listy 7 (To-Do z bazą SQLite w Room). Powiadomienia mają się pojawiać nawet po zamknięciu aplikacji (swipe) z menu recent apps (czyli nawet po onDestroy).
-    (5pt) Napisz prostą aplikację wykorzystującą serwis Google Maps. Aplikacja powinna zawierać zdefiniowane w bazie danych Firebase nazwy miast razem ze współrzędnymi geograficznymi. Dodaj menu (np. Spinner), gdzie użytkownik może wybierać miasta po nazwach i kamera przesunie się na odpowiednią pozycję. Dodaj możliwość dodawania miast do bazy. Wtedy dodane miasta widzą wszyscy użytkownicy aplikacji (nie potrzeba logowania). Dodatkowo zrób, tak aby użytkownik mógł rysować linie między miastami i kiedy wciśnie przycisk "Kasuj", to ścieżka zostanie wykasowana.
+1. (5pt) Dopisz funkcjonalność powiadamiania o nadchodzącym zadaniu w aplikacji z Listy 7 (To-Do z bazą SQLite w Room). Powiadomienia mają się pojawiać nawet po zamknięciu aplikacji (swipe) z menu recent apps (czyli nawet po onDestroy).
+1. (5pt) Napisz prostą aplikację wykorzystującą serwis Google Maps. Aplikacja powinna zawierać zdefiniowane w bazie danych Firebase nazwy miast razem ze współrzędnymi geograficznymi. Dodaj menu (np. Spinner), gdzie użytkownik może wybierać miasta po nazwach i kamera przesunie się na odpowiednią pozycję. Dodaj możliwość dodawania miast do bazy. Wtedy dodane miasta widzą wszyscy użytkownicy aplikacji (nie potrzeba logowania). Dodatkowo zrób, tak aby użytkownik mógł rysować linie między miastami i kiedy wciśnie przycisk "Kasuj", to ścieżka zostanie wykasowana.
