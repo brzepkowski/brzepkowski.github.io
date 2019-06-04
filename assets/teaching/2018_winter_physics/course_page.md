@@ -4,4 +4,4 @@ title: Fizyka
 ---
 
 Listy zadań:
-- [Lista 1](WM_lista_1.pdf)
+- [Lista 1](../WM_lista_1.pdf)
