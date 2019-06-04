@@ -2,6 +2,9 @@
 layout: page
 title: Fizyka
 ---
+Główny prowadzący kurs: prof. dr hab. inż. Arkadiusz Wójs
+
+### Materiały
 
 Listy zadań:
 - [Lista 1](../WM_lista_1.pdf)
