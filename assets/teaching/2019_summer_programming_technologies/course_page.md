@@ -6,7 +6,7 @@ Główny prowadzący kurs: dr inż. Karol Tarnowski
 
 ### Materiały
 
-[Zasady zalcizenia](../tp_zz.pdf)
+[Zasady zaliczenia](../tp_zz.pdf)
 
 Wykłady:
 - [Wykład 1](../tp_w01.pdf)
