@@ -8,8 +8,8 @@ title: Scientific CV
 ------------ | -------------
 Engineering studies in **Computer Science**, Faculty of Fundamental Problems of Technology, Wrocław University of Science and Technology, Thesis subject: [**”Controlling a computer model with the usage of a neural network” (PL)**](assets/eng_thesis.pdf), Supervisor: PhD. Eng. Małgorzata Sulkowska | 2013-2017
 Lappenranta University of Technology, ERASMUS+ exchange programme | 2016
-Master’s studies in **Computer Science**, Specialization: **Algorithmics**, Faculty of Fundamental Problems of Technology, Wrocław University of Science and Technology, Thesis subject: [**”Implementation of algorithms on a quantum computer” (ENG)**](assets/msc_thesis.pdf), Supervisor: PhD. Eng. Paweł Potasz | 2017-2018
-PhD candidate in **Physics**, Department of Theoretical Physics, Faculty of Fundamental Problems of Technology, Wrocław University of Science and Technology, Thesis subject: **"Simulations of correlated systems on a quantum computer"**, Supervisors: Prof. PhD. Eng. Arkadiusz Wójs, PhD. Gunnar Möller, PhD. Eng. Paweł Potasz | 2018 -
+Master’s studies in **Computer Science**, Specialization: **Algorithmics**, Faculty of Fundamental Problems of Technology, Wrocław University of Science and Technology, Thesis subject: [**”Implementation of algorithms on a quantum computer” (ENG)**](assets/msc_thesis.pdf), Supervisor: PhD. Eng. Paweł Potasz | 2017 - 2018
+PhD candidate in **Physics**, Department of Theoretical Physics, Faculty of Fundamental Problems of Technology, Wrocław University of Science and Technology, Thesis subject: **"Simulations of correlated systems on a quantum computer"**, Supervisors: Prof. PhD. Eng. Arkadiusz Wójs, PhD. Gunnar Möller, PhD. Eng. Paweł Potasz | 2018 - Present
 
 
 ### Conferences, workshops, summer schools
