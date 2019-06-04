@@ -30,74 +30,74 @@ Główny prowadzący kurs: dr inż. Marcin Zawada
 
 1. Wykład 1.03.2019
     - [Historia systemów mobilnych](https://en.wikipedia.org/wiki/Mobile_operating_system)
-    - Tworzenie aplikacji pod system Android wykorzystując dostępne [SDK](https://en.wikipedia.org/wiki/Mobile_operating_system)
+    - Tworzenie aplikacji pod system Android wykorzystując dostępne [SDK](https://developer.android.com/studio)
     - [Tworzenie projektu Android Studio](https://developer.android.com/training/basics/firstapp/creating-project.html)
     - [Uruchomienie aplikacji na urządzeniu i/lub emulatorze](https://developer.android.com/training/basics/firstapp/running-app.html)
 1. Wykład 8.03.2019
-    - Podstawowe informacje o komponentach aplikacji: [Activity](developer.android.com/guide/components/activities.html), [Intent](developer.android.com/guide/components/intents-filters.html) oraz [Service](developer.android.com/guide/components/services.html)
-    - Manifest aplikacji
-    - Podstawowe zasoby i dostęp do zasobów
-    - Interfejs użytkownika np. LinearLayout, TableLayout, Buttons, EditText
-    - Budowanie prostej aplikacji
-    - Projektowanie aplikacji dla różnych wielkości ekranu, wspieranie różnych wielkości ekranu
-    - Kotlin Android Extensions - View Binding
-1. Wykład 15.03.2019 kod źródłowy z wykładu
-    - ListView, ListView (Kotlin), ListView (Java)
-    - Zasoby
-    - Log i Logcat
-1. Wykład 22.03.2019 kod źródłowy z wykładu
-    - Cykl życia aktywności
-    - Przełączanie oraz przekazywanie danych między aktywnościami przez intencje
-1. Wykład 29.03.2019 kod źródłowy z wykładu
-    - Fragmenty link1 link2
-1. Wykład 5.04.2019 kod źródłowy z wykładu
-    - Layout Inflater
-    - Picasso, Glide - biblioteka do pobierania i obróbki obrazów
-    - Android View Animations - biblioteka do animacji widoków
-    - Android Bootstrap - biblioteka dostarczająca widoki i style, stosuje się do specyfikacji Twitter Bootstrap Specification.
-    - Ion - biblioteka ułatwiająca pobieranie plików z sieci
-    - SwipeStack, Swipe Layout, ... - biblioteki przesuwania widoków
-    - Lista różnych bibliotek dla Androida
-1. Wykład 12.04.2019 kod źródłowy z wykładu
-    - Szybki sposób na zachowanie stanu aktywności np. po rotacji ekranu
-    - Odtwarzanie stanu aktywności
-    - Przechowywanie małej kolekcji klucz-wartość: SharedPreferences
-    - Przechowywanie danych w plikach na wewnętrznym lub zewnętrznym nośniku
+    - Podstawowe informacje o komponentach aplikacji: [Activity](https://developer.android.com/guide/components/activities.html), [Intent](https://developer.android.com/guide/components/intents-filters.html) oraz [Service](https://developer.android.com/guide/components/services.html)
+    - [Manifest aplikacji](https://developer.android.com/guide/topics/manifest/manifest-intro.html)
+    - [Podstawowe zasoby](https://developer.android.com/guide/topics/resources/providing-resources.html) i [dostęp do zasobów](https://developer.android.com/guide/topics/resources/providing-resources#Accessing)
+    - [Interfejs użytkownika](http://developer.android.com/guide/topics/ui/index.html) np. [LinearLayout](https://developer.android.com/reference/kotlin/android/widget/LinearLayout.html), [TableLayout](https://developer.android.com/reference/kotlin/android/widget/TableLayout.html), [Buttons](https://developer.android.com/reference/kotlin/android/widget/Button.html), [EditText](https://developer.android.com/reference/kotlin/android/widget/EditText.html)
+    - [Budowanie prostej aplikacji](https://developer.android.com/training/basics/firstapp/building-ui.html)
+    - [Projektowanie aplikacji dla różnych wielkości ekranu](https://developer.android.com/training/multiscreen/index.html), [wspieranie różnych wielkości ekranu](https://developer.android.com/training/basics/supporting-devices/screens.html#create-layouts)
+    - [Kotlin Android Extensions - View Binding](https://kotlinlang.org/docs/tutorials/android-plugin.html)
+1. Wykład 15.03.2019
+    - [ListView](https://developer.android.com/reference/android/widget/ListView), [ListView](https://www.raywenderlich.com/155-android-listview-tutorial-with-kotlin) (Kotlin), [ListView](http://www.vogella.com/tutorials/AndroidListView/article.html) (Java)
+    - [Zasoby](https://developer.android.com/guide/topics/resources/providing-resources)
+    - [Log i Logcat](https://developer.android.com/studio/debug/am-logcat)
+1. Wykład 22.03.2019
+    - [Cykl życia aktywności](https://developer.android.com/guide/components/activities/activity-lifecycle)
+    - [Przełączanie](http://developer.android.com/training/basics/firstapp/starting-activity.html) oraz [przekazywanie danych](http://developer.android.com/training/basics/intents/result.html) między aktywnościami przez [intencje](http://developer.android.com/guide/components/intents-filters.html)
+1. Wykład 29.03.2019
+    - Fragmenty [link1](http://developer.android.com/guide/components/fragments.html) [link2](http://android-developers.blogspot.com/2011/02/android-30-fragments-api.html)
+1. Wykład 5.04.2019
+    - [Layout Inflater](https://developer.android.com/reference/kotlin/android/view/LayoutInflater.html)
+    - [Picasso](http://square.github.io/picasso), [Glide](https://github.com/bumptech/glide) - biblioteka do pobierania i obróbki obrazów
+    - [Android View Animations](http://github.com/daimajia/AndroidViewAnimations) - biblioteka do animacji widoków
+    - [Android Bootstrap](https://github.com/Bearded-Hen/Android-Bootstrap) - biblioteka dostarczająca widoki i style, stosuje się do specyfikacji [Twitter Bootstrap Specification](http://getbootstrap.com/).
+    - [Ion](http://github.com/koush/ion) - biblioteka ułatwiająca pobieranie plików z sieci
+    - [SwipeStack](https://github.com/flschweiger/SwipeStack), [Swipe Layout](https://github.com/daimajia/AndroidSwipeLayout), ... - biblioteki przesuwania widoków
+    - [Lista różnych bibliotek dla Androida](https://github.com/codepath/android_guides/wiki/Must-Have-Libraries)
+1. Wykład 12.04.2019
+    - Szybki sposób na zachowanie stanu aktywności np. [po rotacji ekranu](http://developer.android.com/guide/topics/resources/runtime-changes.html#HandlingTheChange)
+    - [Odtwarzanie stanu aktywności](http://developer.android.com/training/basics/activity-lifecycle/recreating.html)
+    - Przechowywanie małej kolekcji klucz-wartość: [SharedPreferences](http://developer.android.com/training/basics/data-storage/shared-preferences.html)
+    - [Przechowywanie danych w plikach na wewnętrznym lub zewnętrznym nośniku](http://developer.android.com/training/basics/data-storage/files.html)
     - Grafika 2D: View, runOnUiThread
-1. Wykład 16.04.2019 kod źródłowy z wykładu
-    - Grafika 2D: SurfaceView
-1. Wykład 26.04.2019 kod źródłowy z wykładu
-    - GSON - biblioteka do zamiany JSON na obiekty
-    - Retrofit - biblioteka do zamiany REST API na metody
+1. Wykład 16.04.2019
+    - Grafika 2D: [SurfaceView](https://developer.android.com/reference/kotlin/android/view/SurfaceView)
+1. Wykład 26.04.2019
+    - [GSON](https://github.com/google/gson) - biblioteka do zamiany JSON na obiekty
+    - [Retrofit](http://square.github.io/retrofit/) - biblioteka do zamiany REST API na metody
     - RESTful API
-        - Chuck Norris, The Cat - proste przykłady
-        - Twitter
-        - Instagram
-        - RapidAPI
-1. Wykład 10.05.2019 kod źródłowy z wykładu
+        - [Chuck Norris](http://www.icndb.com/api/), [The Cat](https://docs.thecatapi.com/) - proste przykłady
+        - [Twitter](https://dev.twitter.com/rest/public)
+        - [Instagram](https://www.instagram.com/developer/)
+        - [RapidAPI](https://rapidapi.com/)
+1. Wykład 10.05.2019
     - Relacyjne bazy danych
-    - SQLite
-    - Room, Room DAO
-    - adb shell
-1. Wykład 17.05.2019 kod źródłowy z wykładu
+    - [SQLite](https://developer.android.com/training/data-storage/sqlite.html)
+    - [Room](https://developer.android.com/training/data-storage/room/index.html), [Room DAO](https://developer.android.com/training/data-storage/room/accessing-data)
+    - [adb shell](https://developer.android.com/studio/command-line/adb.html#shellcommands)
+1. Wykład 17.05.2019
     - Bazy NoSQL
-    - Firebase
-        - Add Firebase to your Android project
-        - Sign in with pre-built UI
-        - Authenticate with Firebase Using Email Link in Android
-        - Real-time database (Android)
-        - Cloud Firestore
-1. Wykład 24.05.2019 kod źródłowy z wykładu
-    - Services
-    - Notification
-1. Wykład 31.05.2019 kod źródłowy z wykładu
-    - Google Maps
-        - Google Maps for Android
-        - Location Data
-    - Biblioteka Qt
-        - QObject, Q_OBJECT, QMetaObject, QApplication
-        - Sygnały i sloty
-        - Przykłady
+    - [Firebase](https://console.firebase.google.com/)
+        - [Add Firebase to your Android project](https://firebase.google.com/docs/android/setup)
+        - [Sign in with pre-built UI](https://firebase.google.com/docs/auth/android/firebaseui)
+        - [Authenticate with Firebase Using Email Link in Android](https://firebase.google.com/docs/auth/android/email-link-auth)
+        - [Real-time database (Android)](https://firebase.google.com/docs/database/android/start)
+        - [Cloud Firestore](https://www.youtube.com/watch?v=kDZYIhNkQoM)
+1. Wykład 24.05.2019
+    - [Services](https://developer.android.com/guide/components/services)
+    - [Notification](https://developer.android.com/guide/topics/ui/notifiers/notifications)
+1. Wykład 31.05.2019
+    - [Google Maps](https://developers.google.com/maps/documentation/)
+        - [Google Maps for Android](https://developers.google.com/maps/documentation/android-sdk/intro)
+        - [Location Data](https://developers.google.com/maps/documentation/android-sdk/location)
+    - [Biblioteka Qt](https://www.qt.io/)
+        - [QObject](http://doc.qt.io/qt-5/qobject.html#details), [Q_OBJECT](http://doc.qt.io/qt-5/qobject.html#Q_OBJECT), [QMetaObject](http://doc.qt.io/qt-5/qmetaobject.html#details), [QApplication](http://doc.qt.io/qt-5/qapplication.html#details)
+        - [Sygnały i sloty](http://doc.qt.io/qt-5/signalsandslots.html)
+        - [Przykłady](http://doc.qt.io/qt-5/qtexamplesandtutorials.html)
 
 
 ### Projekt - Aplikacja w systemie mobilnym Android
@@ -108,7 +108,7 @@ Główny prowadzący kurs: dr inż. Marcin Zawada
 - Projekt musi zostać zatwierdzony przez osobę prowadzącą laboratorium
 - Na każdym laboratorium po wybraniu projektu co najmniej jedna osoba z grupy przedstawia postępy projektu
 - Projekt należy wybrać najpóźniej do 12.04.2019 (przy braku wyboru grupy nastąpi losowy przydział)
-- Do zarządzania projektem najlepiej skorzystać z github, gitlab, bitbucket, ... i proszę wysłać prowadzącemu link do projektu grupy. Przydatny będzie pewnie także np. slack
+- Do zarządzania projektem najlepiej skorzystać z [github](http://github.com/), [gitlab](http://gitlab.com/), [bitbucket](http://bitbucket.org/), ... i proszę wysłać prowadzącemu link do projektu grupy. Przydatny będzie pewnie także np. [slack](http://slack.com/)
 - Na realizację projektu i wysłanie na SVN (każda osoba wysyła tylko końcową wersję projektu na przydzielone konto SVN, tak każda osoba z grupy wysyła ten sam projekt na swoje konto SVN) jest czas do 26.05.2019
 - Przy oddawaniu projektu wszyscy z grupy znają cały projekt i potrafią odpowiedzieć na dowolne pytania z zakresu wykładów
 
@@ -116,7 +116,7 @@ Główny prowadzący kurs: dr inż. Marcin Zawada
 
 ### Lista 0 (Lab)
 
-1. Zainstaluj język Kotlin oraz uruchom i przeanalizuj kilka przykładów ze strony link.
+1. Zainstaluj język [Kotlin](https://kotlinlang.org/) oraz uruchom i przeanalizuj kilka przykładów ze strony [link](https://play.kotlinlang.org/byExample/overview).
 ```
     $ sudo pacman -S kotlin
     $ cat << EOF >hello.kt
@@ -135,7 +135,7 @@ Główny prowadzący kurs: dr inż. Marcin Zawada
     res0: kotlin.Int = 4
     >>>
 ```
-1. Zainstaluj Android Studio. Uruchom przykładowe "Hello World" w emulatorze i/lub na urządzeniu z Androidem (telefon, tablet).
+1. Zainstaluj [Android Studio](http://developer.android.com/studio). Uruchom przykładowe "Hello World" w emulatorze i/lub na urządzeniu z Androidem (telefon, tablet).
 
 ### Lista 1 (Lab) Termin wysłania na SVN do 10.03.2019 (nieobowiązkowe wysłanie na SVN)
 
@@ -158,7 +158,7 @@ Celem tej listy jest wstępne opanowanie pisania aplikacji dla systemu Android z
 Celem tej listy jest opanowanie bardziej zaawansowanych układów graficznych (niż te z poprzedniej listy) oraz wykorzystanie większej liczby widgetów oraz widoków w interfejsie graficznym użytkownika.
 
 1. (3pt lub 4pt) Napisz grę w kółko i krzyżyk, gdzie dwóch graczy na zmianę naciska przyciski w siatce 5x5 oznaczone odpowiednio przez "X" lub "O". Jeśli, któryś z graczy ułoży swoje litery pionowo, poziomo lub po przekątnej to wygrywa. Wykorzystaj odpowiedni Layout do rozłożenia przycisków oraz zrób tak aby przyciski wypełniały odpowiednio ekran i czcionka była odpowiednio duża (możesz to przetestować na emulatorze dla różnych rozdzielczości ekranów). Prostsza wersja, gry jest taka, że gracze są ludźmi i grają na zmianę (3pt). W bardziej zaawansowanej wersji zrób, aby można było grać z komputerem np. wymyślając jakąś strategie która będzie naśladowała zachowanie drugiego gracza (4pt).
-1. (3pt) Napisz aplikację "Wisielec", która wyświetla po kolei obrazek wisielca oraz słowo które gracz próbuje zgadnąć. Słowo wybierane jest losowo z dostępnego słownika. Oczywiście cały czas wyświetlane jest słowo z prawidłowo zgadniętymi literami np. dla słowa komputer jeśli gracz zgadł prawidłowo litery o, m i e, słowo będzie wyglądało mniej więcej tak ?om???e?. Do utworzenia obrazków wykorzystaj np. program GIMP nazwij je odpowiednio wisielec0.png, wisielec1.png i tak dalej. Do wyświetlania obrazków wykorzystaj ImageView. Do przechowywania słownika wykorzystaj plik strings.xml.
+1. (3pt) Napisz aplikację ["Wisielec"](https://pl.wikipedia.org/wiki/Wisielec_(gra)), która wyświetla po kolei obrazek wisielca oraz słowo które gracz próbuje zgadnąć. Słowo wybierane jest losowo z dostępnego słownika. Oczywiście cały czas wyświetlane jest słowo z prawidłowo zgadniętymi literami np. dla słowa komputer jeśli gracz zgadł prawidłowo litery o, m i e, słowo będzie wyglądało mniej więcej tak ?om???e?. Do utworzenia obrazków wykorzystaj np. program [GIMP](http://www.gimp.org/) nazwij je odpowiednio wisielec0.png, wisielec1.png i tak dalej. Do wyświetlania obrazków wykorzystaj [ImageView](http://developer.android.com/reference/android/widget/ImageView.html). Do przechowywania słownika wykorzystaj plik strings.xml.
 
 ```
     <string-array name="words">
@@ -168,7 +168,7 @@ Celem tej listy jest opanowanie bardziej zaawansowanych układów graficznych (n
     </string-array>
 ```
 
-Jak pobierać zasoby zobacz link. Słownik możesz wypełnić dowolnymi słowami np. ściągniętymi z internetu przez prosty skrypt.
+Jak pobierać zasoby zobacz [link](https://developer.android.com/guide/topics/resources/string-resource#StringArray). Słownik możesz wypełnić dowolnymi słowami np. ściągniętymi z internetu przez prosty skrypt.
 
 ### Lista 3 (Lab) Termin wysłania na SVN do 7.04.2019
 
@@ -185,24 +185,24 @@ Jak pobierać zasoby zobacz link. Słownik możesz wypełnić dowolnymi słowami
 
 Celem tej listy jest napisanie aplikacji, która ma wiele aktywności, prawidłowo obsługuje stany aplikacji onPause, onStop, itp. przechowuje dane i poprawnie wykorzystuje intencje (intent).
 
-1. (5pt) Napisz aplikacje (galeria) przechowującą zdjęcia np. ludzi, krajobrazów, zwierząt, ... i każde zdjęcie dodatkowo zawiera krótki opis. Po uruchomieniu aplikacji, na początku pokazuje ona dostępne zdjęcia. Użytkownik może wybrać dowolną pozycję, aby zobaczyć większe zdjęcie i opis. Na ekranie dodatkowo, mamy możliwość ocenienia zdjęcia przez np. "gwiazdki" (zobacz RatingBar ). Proszę pamiętać, że na tym etapie poznania Androida nie ma to być w pełni funkcjonalna aplikacja np. nie potrzeba tworzyć kont dla użytkowników lub nie potrzeba przechowywać nowych zdjęć. Aplikacja powinna natomiast obsługiwać:
+1. (5pt) Napisz aplikacje (galeria) przechowującą zdjęcia np. ludzi, krajobrazów, zwierząt, ... i każde zdjęcie dodatkowo zawiera krótki opis. Po uruchomieniu aplikacji, na początku pokazuje ona dostępne zdjęcia. Użytkownik może wybrać dowolną pozycję, aby zobaczyć większe zdjęcie i opis. Na ekranie dodatkowo, mamy możliwość ocenienia zdjęcia przez np. "gwiazdki" (zobacz [RatingBar](http://developer.android.com/reference/kotlin/android/widget/RatingBar.html) ). Proszę pamiętać, że na tym etapie poznania Androida nie ma to być w pełni funkcjonalna aplikacja np. nie potrzeba tworzyć kont dla użytkowników lub nie potrzeba przechowywać nowych zdjęć. Aplikacja powinna natomiast obsługiwać:
     - co najmniej dwie aktywności
     - przekazywać informacje z jednej aktywności do drugiej wykorzystując intencje
     - druga aktywność powinna wracać informacje do pierwszej o liczbie gwiazdek, po czym w pierwszej aktywności obrazki zostają odpowiednio posortowane po liczbie gwiazdek
-    - poprawnie obsługiwać cykl życia aktywności tzn. onCreate, onStart, onResume, onPause, onStop, onDestroy, ... (te które są potrzebne)
+    - poprawnie obsługiwać [cykl życia aktywności](http://developer.android.com/training/basics/activity-lifecycle/index.html) tzn. onCreate, onStart, onResume, onPause, onStop, onDestroy, ... (te które są potrzebne)
     - wykorzystywać fragmenty przy zmianie orientacji ekranu
     - zapamiętywać swój stan po zmianie orientacji ekranu
-1. \*(5pt) Uzupełnij poprzednie zadanie o możliwość robienia zdjęć (obsługa Camera) i dodawania do kolekcji.
+1. \*(5pt) Uzupełnij poprzednie zadanie o możliwość robienia zdjęć (obsługa [Camera](http://developer.android.com/training/camera/photobasics.html)) i dodawania do kolekcji.
 
 ### Lista 5 (Lab) Termin wysłania na SVN do 5.05.2019
 
 Celem tej listy jest napisanie aplikacji, która umożliwia prostą animacje oraz na stałe przechowuje dane.
 
-1. (5pt) Napisz prostą dwuwymiarową grę w tenisa Pong lub Arkanoid. Wykorzystaj własne View które będzie odpowiedzialne za odświeżanie gry (rysowanie kolejnych klatek animacji gry w onDraw). Do pobierania zdarzeń wykorzystaj metodę np. onTouchEvent. Wszystkie informacje o stanie gry mają być przechowywane w SharedPreferences.
+1. (5pt) Napisz prostą dwuwymiarową grę w tenisa [Pong](http://en.wikipedia.org/wiki/Pong) lub [Arkanoid](https://en.wikipedia.org/wiki/Arkanoid). Wykorzystaj własne View które będzie odpowiedzialne za odświeżanie gry (rysowanie kolejnych klatek animacji gry w onDraw). Do pobierania zdarzeń wykorzystaj metodę np. onTouchEvent. Wszystkie informacje o stanie gry mają być przechowywane w SharedPreferences.
 
 ### Lista 6 (Lab) Termin wysłania na SVN do 19.05.2019
 
-1. (5pt) Napisz aplikacje wykorzystującą REST API do prostych obliczeń matematycznych Newton API. W implementacji wykorzystaj bibliotekę Retrofit. Napisz prosty interfejs do wprowadzania podstawowych funkcji np. w EditText wprowadzamy wyrażenie i na dole mamy Buttony które odpowiadają wszystkim dostępnym operacją simplify, factor, derive, ... po czym dostajemy wynik obliczeń.
+1. (5pt) Napisz aplikacje wykorzystującą REST API do prostych obliczeń matematycznych [Newton API](https://github.com/aunyks/newton-api). W implementacji wykorzystaj bibliotekę [Retrofit](http://square.github.io/retrofit/). Napisz prosty interfejs do wprowadzania podstawowych funkcji np. w EditText wprowadzamy wyrażenie i na dole mamy Buttony które odpowiadają wszystkim dostępnym operacją simplify, factor, derive, ... po czym dostajemy wynik obliczeń.
 
 ```
     # Lokalna instalacja Newton API (jeśli chcemy pracować i/lub testować lokalnie)
