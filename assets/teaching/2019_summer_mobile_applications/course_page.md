@@ -27,6 +27,7 @@ Główny prowadzący kurs: dr inż. Marcin Zawada
 
 
 # Wykłady
+
 1. Wykład 1.03.2019
     - Historia systemów mobilnych
     - Tworzenie aplikacji pod system Android wykorzystując dostępne SDK
@@ -100,6 +101,7 @@ Główny prowadzący kurs: dr inż. Marcin Zawada
 
 
 ### Projekt - Aplikacja w systemie mobilnym Android
+
 - Od 1.04.2019, każdy wybiera projekt który będzie realizował
 - Projekt jest realizowany w grupach >=4, <=6 osobowych (czyli 4 osoby, 5 osób lub 6 osób)
 - Zakres projektu musi wykorzystywać w pełni materiał przedstawiony na co najmniej 5 wykładach (z wyjątkiem wykładu 1)
@@ -113,6 +115,7 @@ Główny prowadzący kurs: dr inż. Marcin Zawada
 # Laboratorium
 
 ### Lista 0 (Lab)
+
 1. Zainstaluj język Kotlin oraz uruchom i przeanalizuj kilka przykładów ze strony link.
 ```
     $ sudo pacman -S kotlin
@@ -153,7 +156,8 @@ Celem tej listy jest wstępne opanowanie pisania aplikacji dla systemu Android z
 ### Lista 2 (Lab) Termin wysłania na SVN do 24.03.2019
 
 Celem tej listy jest opanowanie bardziej zaawansowanych układów graficznych (niż te z poprzedniej listy) oraz wykorzystanie większej liczby widgetów oraz widoków w interfejsie graficznym użytkownika.
-1 (3pt lub 4pt) Napisz grę w kółko i krzyżyk, gdzie dwóch graczy na zmianę naciska przyciski w siatce 5x5 oznaczone odpowiednio przez "X" lub "O". Jeśli, któryś z graczy ułoży swoje litery pionowo, poziomo lub po przekątnej to wygrywa. Wykorzystaj odpowiedni Layout do rozłożenia przycisków oraz zrób tak aby przyciski wypełniały odpowiednio ekran i czcionka była odpowiednio duża (możesz to przetestować na emulatorze dla różnych rozdzielczości ekranów). Prostsza wersja, gry jest taka, że gracze są ludźmi i grają na zmianę (3pt). W bardziej zaawansowanej wersji zrób, aby można było grać z komputerem np. wymyślając jakąś strategie która będzie naśladowała zachowanie drugiego gracza (4pt).
+
+1. (3pt lub 4pt) Napisz grę w kółko i krzyżyk, gdzie dwóch graczy na zmianę naciska przyciski w siatce 5x5 oznaczone odpowiednio przez "X" lub "O". Jeśli, któryś z graczy ułoży swoje litery pionowo, poziomo lub po przekątnej to wygrywa. Wykorzystaj odpowiedni Layout do rozłożenia przycisków oraz zrób tak aby przyciski wypełniały odpowiednio ekran i czcionka była odpowiednio duża (możesz to przetestować na emulatorze dla różnych rozdzielczości ekranów). Prostsza wersja, gry jest taka, że gracze są ludźmi i grają na zmianę (3pt). W bardziej zaawansowanej wersji zrób, aby można było grać z komputerem np. wymyślając jakąś strategie która będzie naśladowała zachowanie drugiego gracza (4pt).
 1. (3pt) Napisz aplikację "Wisielec", która wyświetla po kolei obrazek wisielca oraz słowo które gracz próbuje zgadnąć. Słowo wybierane jest losowo z dostępnego słownika. Oczywiście cały czas wyświetlane jest słowo z prawidłowo zgadniętymi literami np. dla słowa komputer jeśli gracz zgadł prawidłowo litery o, m i e, słowo będzie wyglądało mniej więcej tak ?om???e?. Do utworzenia obrazków wykorzystaj np. program GIMP nazwij je odpowiednio wisielec0.png, wisielec1.png i tak dalej. Do wyświetlania obrazków wykorzystaj ImageView. Do przechowywania słownika wykorzystaj plik strings.xml.
 
 ```
@@ -163,9 +167,11 @@ Celem tej listy jest opanowanie bardziej zaawansowanych układów graficznych (n
         ...
     </string-array>
 ```
-    Jak pobierać zasoby zobacz link. Słownik możesz wypełnić dowolnymi słowami np. ściągniętymi z internetu przez prosty skrypt.
+
+Jak pobierać zasoby zobacz link. Słownik możesz wypełnić dowolnymi słowami np. ściągniętymi z internetu przez prosty skrypt.
 
 ### Lista 3 (Lab) Termin wysłania na SVN do 7.04.2019
+
 1. (5-10pt) Napisz prostą aplikacje "To-Do", czyli listę zadań do zrobienia. Aplikacja zawiera ListView z potencjalną listą zadań. Na początku lista jest pusta, ale na dole aktywności znajduje się np. EditText oraz Button (Dodaj), gdzie użytkownik może wprowadzić opis nowego zadania. Dalej mamy możliwość wyboru ikonki zadania (obrazek) oraz czas wykonania zadania. Zaprojektuj odpowiedni layout pojedynczej pozycji ListView, który zawiera co najmniej obrazek, treść zadania oraz czas wykonania. Aplikacja powinna też mieć możliwość usuwania zadań z listy, przez dołączenie słuchacza do listy, który usuwa wybraną pozycję. Najlepiej wykorzystać do tego long click (metoda setOnItemLongClickListener). Zrób też tak, aby aplikacja pamiętała listę zadań po rotacji ekranu, czyli po zmianie z portrait na landscape i odwrotnie.
 
 **Uwaga:** W tym zadaniu aplikacja powinna być w pełni funkcjonalna. Uwzględniana będzie też wygoda i użyteczność aplikacji. Możliwe są do wprowadzenia dodatkowe funkcje, za które można otrzymać dodatkowe punkty np.
@@ -178,6 +184,7 @@ Celem tej listy jest opanowanie bardziej zaawansowanych układów graficznych (n
 ### Lista 4 (Lab) Termin wysłania na SVN do 23.04.2019
 
 Celem tej listy jest napisanie aplikacji, która ma wiele aktywności, prawidłowo obsługuje stany aplikacji onPause, onStop, itp. przechowuje dane i poprawnie wykorzystuje intencje (intent).
+
 1. (5pt) Napisz aplikacje (galeria) przechowującą zdjęcia np. ludzi, krajobrazów, zwierząt, ... i każde zdjęcie dodatkowo zawiera krótki opis. Po uruchomieniu aplikacji, na początku pokazuje ona dostępne zdjęcia. Użytkownik może wybrać dowolną pozycję, aby zobaczyć większe zdjęcie i opis. Na ekranie dodatkowo, mamy możliwość ocenienia zdjęcia przez np. "gwiazdki" (zobacz RatingBar ). Proszę pamiętać, że na tym etapie poznania Androida nie ma to być w pełni funkcjonalna aplikacja np. nie potrzeba tworzyć kont dla użytkowników lub nie potrzeba przechowywać nowych zdjęć. Aplikacja powinna natomiast obsługiwać:
     - co najmniej dwie aktywności
     - przekazywać informacje z jednej aktywności do drugiej wykorzystując intencje
