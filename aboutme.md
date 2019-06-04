@@ -9,6 +9,7 @@ title: About me
 ### My scientific interests:
 - Quantum computation and quantum information.
 - Solid state physics.
+- Machine learning.
 - Quantum measurement.
 
 ### Important links
