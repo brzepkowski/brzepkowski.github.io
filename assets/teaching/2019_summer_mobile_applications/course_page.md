@@ -29,12 +29,12 @@ Główny prowadzący kurs: dr inż. Marcin Zawada
 # Wykłady
 
 1. Wykład 1.03.2019
-    - Historia systemów mobilnych
-    - Tworzenie aplikacji pod system Android wykorzystując dostępne SDK
-    - Tworzenie projektu Android Studio
-    - Uruchomienie aplikacji na urządzeniu i/lub emulatorze
+    - [Historia systemów mobilnych](https://en.wikipedia.org/wiki/Mobile_operating_system)
+    - Tworzenie aplikacji pod system Android wykorzystując dostępne [SDK](https://en.wikipedia.org/wiki/Mobile_operating_system)
+    - [Tworzenie projektu Android Studio](https://developer.android.com/training/basics/firstapp/creating-project.html)
+    - [Uruchomienie aplikacji na urządzeniu i/lub emulatorze](https://developer.android.com/training/basics/firstapp/running-app.html)
 1. Wykład 8.03.2019
-    - Podstawowe informacje o komponentach aplikacji: Activity, Intent oraz Service
+    - Podstawowe informacje o komponentach aplikacji: [Activity](developer.android.com/guide/components/activities.html), [Intent](developer.android.com/guide/components/intents-filters.html) oraz [Service](developer.android.com/guide/components/services.html)
     - Manifest aplikacji
     - Podstawowe zasoby i dostęp do zasobów
     - Interfejs użytkownika np. LinearLayout, TableLayout, Buttons, EditText
@@ -192,7 +192,7 @@ Celem tej listy jest napisanie aplikacji, która ma wiele aktywności, prawidło
     - poprawnie obsługiwać cykl życia aktywności tzn. onCreate, onStart, onResume, onPause, onStop, onDestroy, ... (te które są potrzebne)
     - wykorzystywać fragmenty przy zmianie orientacji ekranu
     - zapamiętywać swój stan po zmianie orientacji ekranu
-1. \*(5pt) Uzupełnij poprzednie zadanie o możliwość robienia zdjęć (obsługa Camera ) i dodawania do kolekcji.
+1. \*(5pt) Uzupełnij poprzednie zadanie o możliwość robienia zdjęć (obsługa Camera) i dodawania do kolekcji.
 
 ### Lista 5 (Lab) Termin wysłania na SVN do 5.05.2019
 
