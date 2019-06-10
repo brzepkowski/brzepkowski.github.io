@@ -124,7 +124,7 @@ Spowoduje wypisanie obszaru prostokąta do pliku o nazwie `rectangle.txt` oraz d
 
 =======================================
 
-W klasie `figure`
+W klasie `Figure`
 ```
 class Figure {
 public:
