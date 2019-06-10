@@ -80,7 +80,7 @@ Constructor of base class
 Constructor of derived class
 ```
 
-Pokazuje to, że przy tworzeniu obiektu klasy, która dziedziczy po innej klasie, to konstruktor klasy bazowej również zostaje uruchomiony.
+Pokazuje to, że przy tworzeniu obiektu klasy, która dziedziczy po innej klasie, konstruktor klasy bazowej również zostaje uruchomiony.
 
 
 Rozbudujmy trochę naszą funkcję główną:
@@ -105,7 +105,7 @@ Constructor of derived class
 Print derived class
 Show base class
 ```
-Możemy zauważyć, że funkcja `print()` została przypisana do obiektu na etapie kompilacji, natomiast funkcja `show()` została przypisana już na etapie dzialania programu (runtime). Więcej informacji mozna znaleźć pod powyższymi linkami.
+Możemy zauważyć, że funkcja `print()` została przypisana do obiektu na etapie kompilacji, natomiast funkcja `show()` została przypisana już na etapie dzialania programu (runtime). Więcej informacji można znaleźć pod powyższymi linkami.
 
 ### Zadanie 2
 
@@ -121,7 +121,9 @@ rectangle->print(some_file);
 rectangle->print(cout);
 ```
 Spowoduje wypisanie obszaru prostokąta do pliku o nazwie `rectangle.txt` oraz do strumienia `std::cout`.
-____________________________
+
+=======================================
+
 W klasie `figure`
 ```
 class Figure {
