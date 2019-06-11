@@ -4,11 +4,11 @@ title: Techniki programowania
 ---
 Główny prowadzący kurs: dr inż. Karol Tarnowski
 
-### Materiały
+# Materiały
 
 [Zasady zaliczenia](../tp_zz.pdf)
 
-Wykłady:
+## Wykłady:
 - [Wykład 1](../tp_w01.pdf)
 - [Wykład 2](../tp_w02.pdf)
 - [Wykład 3](../tp_w03.pdf)
@@ -17,7 +17,7 @@ Wykłady:
 - [Wykład 7](../tp_w07.pdf)
 - [Wykład 8](../tp_w08.pdf)
 
-Listy zadań:
+## Listy zadań:
 - [Lista 1](../tp_l01.pdf)
 - [Lista 2](../tp_l02.pdf)
 - [Lista 3](../tp_l03.pdf)
@@ -201,4 +201,30 @@ Aby uruchomić nasz końcowy program wykonujemy polecenie:
 
 W zadaniu rozpatrujemy siłę w nastepujacej postaci:
 
-$$ \bar{F} = k|\bar{v} - \bar{w}| (\bar{v} - \bar{2}).  $$
+$$ \bar{F} = k|\bar{v} - \bar{w}| (\bar{v} - \bar{w}).  $$
+
+W powyższym wzorze wprowadziliśmy następujące oznaczenia: $\bar{F} = (F_x, F_y)$, $\bar{v} = (v_x, v_y)$ oraz $\bar{w} = (w_x, w_y)$. Ropiszmy jawnie powyższe równanie:
+
+$$ (F_x, F_y) = k \sqrt{(v_x - w_x)^2 + (v_y - w_y)^2} (v_x - w_x, v_y - w_y) $$
+
+Siłę $F$ możemy zapisać jako $F = ma = m \frac{dv}{dt}$. Podstawiając to do powyższej formuły dostajemy:
+
+$$ (m \frac{dv_x}{dt}, m\frac{dv_y}{dt}) = k \sqrt{(v_x - w_x)^2 + (v_y - w_y)^2} (v_x - w_x, v_y - w_y). $$
+
+Dzieląc przez masę $m$ dostajemy
+
+$$ (\frac{dv_x}{dt}, \frac{dv_y}{dt}) = \frac{k}{m} \sqrt{(v_x - w_x)^2 + (v_y - w_y)^2} (v_x - w_x, v_y - w_y). $$
+
+Dodatkowo, prędkość jest po prostu pochodną położenia po czasie $ v = \frac{dr}{dt} $.Zbierając razem wszystkie powyższe wzory dostajemy ostateczny układ równań różniczkowych, który opisuje dynamikę rozważanego ciała:
+
+$$ \frac{dx}{dt} = v_x $$
+
+$$ \frac{dy}{dt} = v_y $$
+
+$$ \frac{dv_x}{dt} = \frac{k}{m} \sqrt{(v_x - w_x)^2 + (v_y - w_y)^2} (v_x - w_x) $$
+
+$$ \frac{dv_y}{dt} = \frac{k}{m} \sqrt{(v_x - w_x)^2 + (v_y - w_y)^2} (v_y - w_y) - g. $$
+
+W ostatnim równaniu dodaliśmy jeszcze siłę grawitacji, która działa na ciało w osi $y$.
+
+[**Dokumentacja GSL**](https://www.gnu.org/software/gsl/doc/html/ode-initval.html) - przydatne uzupełnienie do slajdów z wykładu.
