@@ -197,3 +197,8 @@ Aby uruchomić nasz końcowy program wykonujemy polecenie:
 ```
 ./a.out
 ```
+### Rzut ukosny z wiatrem
+
+W zadaniu rozpatrujemy siłę w nastepujacej postaci:
+
+$$ \bar{F} = k|\bar{v} - \bar{w}| (\bar{v} - \bar{2}).  $$
