@@ -201,19 +201,19 @@ Aby uruchomić nasz końcowy program wykonujemy polecenie:
 
 W zadaniu rozpatrujemy siłę w nastepujacej postaci:
 
-$$ \bar{F} = k|\bar{v} - \bar{w}| (\bar{v} - \bar{w}).  $$
+$$ \bar{F} = -k|\bar{v} - \bar{w}| (\bar{v} - \bar{w}).  $$
 
 W powyższym wzorze wprowadziliśmy następujące oznaczenia: $\bar{F} = (F_x, F_y)$, $\bar{v} = (v_x, v_y)$ oraz $\bar{w} = (w_x, w_y)$. Ropiszmy jawnie powyższe równanie:
 
-$$ (F_x, F_y) = k \sqrt{(v_x - w_x)^2 + (v_y - w_y)^2} (v_x - w_x, v_y - w_y) $$
+$$ (F_x, F_y) = -k \sqrt{(v_x - w_x)^2 + (v_y - w_y)^2} (v_x - w_x, v_y - w_y) $$
 
 Siłę $F$ możemy zapisać jako $F = ma = m \frac{dv}{dt}$. Podstawiając to do powyższej formuły dostajemy:
 
-$$ (m \frac{dv_x}{dt}, m\frac{dv_y}{dt}) = k \sqrt{(v_x - w_x)^2 + (v_y - w_y)^2} (v_x - w_x, v_y - w_y). $$
+$$ \bigg ( m \frac{dv_x}{dt}, m\frac{dv_y}{dt} \bigg ) = -k \sqrt{(v_x - w_x)^2 + (v_y - w_y)^2} (v_x - w_x, v_y - w_y). $$
 
 Dzieląc przez masę $m$ dostajemy
 
-$$ (\frac{dv_x}{dt}, \frac{dv_y}{dt}) = \frac{k}{m} \sqrt{(v_x - w_x)^2 + (v_y - w_y)^2} (v_x - w_x, v_y - w_y). $$
+$$ \bigg ( \frac{dv_x}{dt}, \frac{dv_y}{dt} \bigg ) = - \frac{k}{m} \sqrt{(v_x - w_x)^2 + (v_y - w_y)^2} (v_x - w_x, v_y - w_y). $$
 
 Dodatkowo, prędkość jest po prostu pochodną położenia po czasie $ v = \frac{dr}{dt} $.Zbierając razem wszystkie powyższe wzory dostajemy ostateczny układ równań różniczkowych, który opisuje dynamikę rozważanego ciała:
 
@@ -221,9 +221,9 @@ $$ \frac{dx}{dt} = v_x $$
 
 $$ \frac{dy}{dt} = v_y $$
 
-$$ \frac{dv_x}{dt} = \frac{k}{m} \sqrt{(v_x - w_x)^2 + (v_y - w_y)^2} (v_x - w_x) $$
+$$ \frac{dv_x}{dt} = - \frac{k}{m} \sqrt{(v_x - w_x)^2 + (v_y - w_y)^2} (v_x - w_x) $$
 
-$$ \frac{dv_y}{dt} = \frac{k}{m} \sqrt{(v_x - w_x)^2 + (v_y - w_y)^2} (v_y - w_y) - g. $$
+$$ \frac{dv_y}{dt} = - \frac{k}{m} \sqrt{(v_x - w_x)^2 + (v_y - w_y)^2} (v_y - w_y) - g. $$
 
 W ostatnim równaniu dodaliśmy jeszcze siłę grawitacji, która działa na ciało w osi $y$.
 
