@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Technologie programowania
+title: Techniki programowania
 ---
 Główny prowadzący kurs: dr inż. Karol Tarnowski
 
