@@ -197,7 +197,7 @@ Aby uruchomić nasz końcowy program wykonujemy polecenie:
 ```
 ./a.out
 ```
-### Rzut ukosny z wiatrem
+### Rzut ukośny z wiatrem
 
 W zadaniu rozpatrujemy siłę w nastepujacej postaci:
 
