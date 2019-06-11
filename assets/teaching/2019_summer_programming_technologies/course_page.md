@@ -143,21 +143,21 @@ przeciążony `operator<<` korzysta z wirtualnej metody `print()`, która zostan
 
 Poniżej umieściłem przykład instalowania GSL'a na systemie Ubuntu 18.04 (wzorowałem się przykładami ze strony [pl.wikibooks.org/wiki/Programowanie_w_systemie_UNIX/GSL#cite_note-3](https://pl.wikibooks.org/wiki/Programowanie_w_systemie_UNIX/GSL#cite_note-3)).
 
-*Instalacja*
+**Instalacja**
 ```
 sudo apt-get install libgsl0ldbl
 sudo apt-get install libgsl0-dev
 ```
-*Sprawdzenie bibliotek*
+**Sprawdzenie bibliotek**
 ```
 gsl-config --libs
 ```
-*Przykładowe informacje o katalogu i opcjach linkera*
+**Przykładowe informacje o katalogu i opcjach linkera**
 ```
 -L/usr/lib/x86_64-linux-gnu -lgsl -lgslcblas -lm
 ```
 
-*Pierwszy przykładowy program*
+**Pierwszy przykładowy program**
 
 Nasz przykladowy program umieśćmy w pliku `main.cpp`:
 ```
@@ -191,7 +191,7 @@ make clean
 ```
 pozbędziemy się pliku `main.o`.
 
-`Makefile` został napisany w ten sposób, aby uwydatnić różne etapy przetwarzania programu źródłowego. Poczatkowo następuje etap [kompilacji](https://en.wikipedia.org/wiki/Compiler), a następnie zostaje uruchomiony tzw. [linker/konsolidator](https://en.wikipedia.org/wiki/Linker_(computing)). O różnicach między kompilatorem i linkerem można przeczytać [tutaj](https://stackoverflow.com/questions/6264249/how-does-the-compilation-linking-process-work) (dodatkowo jest tam omówiony tzw. **preprocessing**).
+`Makefile` został napisany w ten sposób, aby uwydatnić różne etapy przetwarzania programu źródłowego. Poczatkowo następuje etap [kompilacji](https://en.wikipedia.org/wiki/Compiler), a następnie zostaje uruchomiony tzw. [linker/konsolidator](https://en.wikipedia.org/wiki/Linker_(computing)). O różnicach między kompilatorem i linkerem można przeczytać [tutaj](https://stackoverflow.com/questions/6264249/how-does-the-compilation-linking-process-work) (dodatkowo jest tam omówiony tzw. *preprocessing*).
 
 Aby uruchomić nasz końcowy program wykonujemy polecenie:
 ```
