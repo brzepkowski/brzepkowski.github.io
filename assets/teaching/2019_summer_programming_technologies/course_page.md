@@ -141,7 +141,7 @@ przeciążony `operator<<` korzysta z wirtualnej metody `print()`, która zostan
 
 ### Instalowanie GSL na systemie Linux
 
-Poniżej umieściłem przykład instalowania GSL'a na systemie Ubuntu 18.04 (wzorowałem się przykładami ze strony [pl.wikibooks.org/wiki/Programowanie_w_systemie_UNIX/GSL#cite_note-3](https://pl.wikibooks.org/wiki/Programowanie_w_systemie_UNIX/GSL#cite_note-3)).
+Poniżej umieściłem przykład instalowania GSL'a na systemie Ubuntu 16.04 (wzorowałem się przykładami ze strony [pl.wikibooks.org/wiki/Programowanie_w_systemie_UNIX/GSL#cite_note-3](https://pl.wikibooks.org/wiki/Programowanie_w_systemie_UNIX/GSL#cite_note-3)).
 
 **Instalacja**
 ```
