@@ -109,7 +109,7 @@ Możemy zauważyć, że funkcja `print()` została przypisana do obiektu na etap
 
 ### Zadanie 2
 
-Pod [tym](https://gitlab.com/brzepkowski/dydaktyka/tree/master/2019_summer/Techniki_programowania/virtual_methods) adresem umieściłem przykładowy kod, implementujący to zadanie. Można go skompilować w następujący sposób:
+Na moim repozytorium: [gitlab.com/brzepkowski/dydaktyka/tree/master/2019_summer/Techniki_programowania/virtual_methods](https://gitlab.com/brzepkowski/dydaktyka/tree/master/2019_summer/Techniki_programowania/virtual_methods) umieściłem przykładowy kod, implementujący to zadanie. Można go skompilować w następujący sposób:
 ```
 g++ main.cpp rectangle.cpp circle.cpp
 ```
@@ -136,3 +136,64 @@ public:
 };
 ```
 przeciążony `operator<<` korzysta z wirtualnej metody `print()`, która zostanie przypisana do obiektu już na etapie działania programu, dlatego możliwe będzie wypisanie pola koła lub prostokąta w prawidlowy sposób, jedynie na podstawie stwierdzenia instancją jakiej klasy jest dany obiekt.
+
+## Lista 5
+
+### Instalowanie GSL na systemie Linux
+
+Poniżej umieściłem przykład instalowania GSL'a na systemie Ubuntu 18.04 (wzorowałem się przykładami ze strony [pl.wikibooks.org/wiki/Programowanie_w_systemie_UNIX/GSL#cite_note-3](https://pl.wikibooks.org/wiki/Programowanie_w_systemie_UNIX/GSL#cite_note-3)).
+
+*Instalacja*
+```
+sudo apt-get install libgsl0ldbl
+sudo apt-get install libgsl0-dev
+```
+*Sprawdzenie bibliotek*
+```
+gsl-config --libs
+```
+*Przykładowe informacje o katalogu i opcjach linkera*
+```
+-L/usr/lib/x86_64-linux-gnu -lgsl -lgslcblas -lm
+```
+
+*Pierwszy przykładowy program*
+
+Nasz przykladowy program umieśćmy w pliku `main.cpp`:
+```
+#include <stdio.h>
+#include <gsl/gsl_sf_bessel.h>
+
+int main(void)
+{
+  double x = 5.0;
+  double y = gsl_sf_bessel_J0(x);
+  printf("J0(%g) = %.18e\n", x, y);
+  return 0;
+}
+```
+W katalogu, w którym znajduje się `main.cpp` możemy umieścić dodatkowo plik `Makefile`. Jego przykładowa treść może wyglądać następująco:
+```
+edit: main.o
+        g++ -L/usr/lib main.o -lgsl -lgslcblas -lm
+main.o: main.cpp
+        g++ -Wall -I/usr/include -c main.cpp
+clean:
+        rm *.o
+```
+Aby skompilować nasz program, możemy po prostu wykonać polecenie:
+```
+make
+```
+Jako wynik, otrzymamy nowe pliki `main.o` oraz `a.out`. Teraz uruchamiając polecenie:
+```
+make clean
+```
+pozbędziemy się pliku `main.o`.
+
+`Makefile` został napisany w ten sposób, aby uwydatnić różne etapy przetwarzania programu źródłowego. Poczatkowo następuje etap [kompilacji](https://en.wikipedia.org/wiki/Compiler), a następnie zostaje uruchomiony tzw. [linker/konsolidator](https://en.wikipedia.org/wiki/Linker_(computing)). O różnicach między kompilatorem i linkerem można przeczytać [tutaj](https://stackoverflow.com/questions/6264249/how-does-the-compilation-linking-process-work) (dodatkowo jest tam omówiony tzw. **preprocessing**).
+
+Aby uruchomić nasz końcowy program wykonujemy polecenie:
+```
+./a.out
+```
