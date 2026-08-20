@@ -7,15 +7,22 @@ description: Four instruments, one arrow — put yourself in a neural network's 
 
 import SuperpositionGame from '../../components/SuperpositionGame.svelte';
 
-Neural networks are routinely caught doing something that looks impossible:
-packing more features into a layer than the layer has dimensions. This trick is
-called **superposition**, and it works because features are sparse — most of
-them are silent most of the time, so they can share space and only rarely step
-on each other. But sharing space means that sometimes two features *do* speak at
-once, their signals add up, and someone downstream has to untangle the mess.
-Which way of packing handles those collisions best? That is an open research
-question — and this little game puts you in the network's shoes. It grew out of
-the preliminary results of my project within the
+AI models are remarkably good at compressing information — usually because we
+leave them no choice. The architecture itself imposes the squeeze: GPT-2, an
+early ancestor of ChatGPT, had a vocabulary of 50,257 tokens, yet each token
+had to be represented as a list of just 768 numbers. A space of 768 numbers has
+room for only 768 fully independent directions — 768 concepts that can be
+stored without interfering with one another — and the model needed to keep
+track of over fifty thousand.
+
+One way out of this bind is **superposition**: storing concepts on top of each
+other, in shared directions, as long as they rarely occur together. Most
+features are silent most of the time, so the sharing usually goes unnoticed.
+But sometimes two features *do* speak at once, their signals add up, and
+someone downstream has to untangle the mess. Which way of packing handles those
+collisions best? That is an open research question — and this little game puts
+you in the network's shoes. It grew out of the preliminary results of my
+project within the
 [Pivotal AI Safety Fellowship](https://www.pivotal-research.org/), on the
 strategies deep models discover for superposition.
 
