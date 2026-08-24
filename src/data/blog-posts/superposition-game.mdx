@@ -11,8 +11,8 @@ AI models are remarkably good at compressing information — usually because we
 leave them no choice. The architecture itself imposes the squeeze: GPT-2, an
 early ancestor of ChatGPT, had a vocabulary of 50,257 tokens, yet each token
 had to be represented as a list of just 768 numbers. A space of 768 numbers has
-room for only 768 fully independent directions — 768 concepts that can be
-stored without interfering with one another — and the model needed to keep
+room for only 768 fully independent directions (768 concepts that can be
+stored without interfering with one another) and the model needed to keep
 track of over fifty thousand.
 
 One way out of this bind is **superposition**: storing concepts on top of each
@@ -20,7 +20,7 @@ other, in shared directions, as long as they rarely occur together. Most
 features are silent most of the time, so the sharing usually goes unnoticed.
 But sometimes two features *do* speak at once, their signals add up, and
 someone downstream has to untangle the mess. Which way of packing handles those
-collisions best? That is an open research question — and this little game puts
+collisions best? That is an open research question, and this little game puts
 you in the network's shoes. It grew out of the preliminary results of my
 project within the
 [Pivotal AI Safety Fellowship](https://www.pivotal-research.org/), on the
@@ -29,26 +29,26 @@ strategies deep models discover for superposition.
 ## The rules
 
 You play two roles, at two moments in time. First, before deployment, you
-**program a remote weather station** — you decide how it will encode its
+**program a remote weather station** and decide how it will encode its
 measurements. Then the station is shipped far away, and you sit at headquarters
 **decoding whatever it sends back**.
 
-- The station carries four instruments — a thermometer, a hygrometer, a
-  barometer and an anemometer — each rescaled to read 0–100.
+- The station carries four instruments: a thermometer, a hygrometer, a
+  barometer and an anemometer, each rescaled to read 0–100.
 - Each round, every instrument independently *wakes up* with 20% probability;
   an instrument that sleeps reads 0. (Rounds where all four sleep are skipped.)
-- The station sits in a remote spot with a desperately weak signal — each round
+- The station sits in a remote spot with a desperately weak signal. Each round
   the link has bandwidth for exactly **one vector**, which appears as a single
   arrow on the 2D display at headquarters. Your program assigns each instrument
   its own arrow on that plane; the station automatically transmits the sum of
   those arrows, each scaled by its instrument's reading.
-- The link is weak and the display is coarse — it resolves the received vector
+- The link is weak and the display is coarse. It resolves the received vector
   only to the nearest 0.1 in each coordinate.
 - At headquarters you see only the received vector. Recover all four readings;
   every miss costs its square, so one big miss hurts more than many small ones.
   Five rounds, lowest total wins.
-- **The Oracle** — a perfect decoder that computes the exact best possible
-  guess from your program — sits next to you at headquarters and decodes every
+- **The Oracle** is a perfect decoder that computes the exact best possible
+  guess from your program. It sits next to you at headquarters and decodes every
   message too. Even the Oracle pays for ambiguity: whenever two different
   combinations of awake instruments send the same arrow, hedging is all anyone
   can do. That unavoidable loss is your program's **confusion floor**, shown
